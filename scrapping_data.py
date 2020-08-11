@@ -1,2 +1,0 @@
-#scrapping data
-import scrapy
