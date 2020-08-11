@@ -2,13 +2,13 @@
 import sys, os, time
 import tweepy
 keys = dict(
-consumer_key='abXoIUXZjAdJ7HKKu83mcBJr3',
-consumer_secret='OnfSwyjkCASzhQfsJ9ZdV5CZVFsXDqe6eTVs2o31WTaGEa1WWt',
-access_token='824714493863297024-Hg2o0cqgMaKGWWdn702KjJHHZe9CyWM', 
-access_token_secret='E8fm2SbSNtguXmPqK5EnvG72Mu9ihrsSUqReYtFPLIMpJ'
+consumer_key='consumer key',
+consumer_secret='secret key',
+access_token='access token', 
+access_token_secret='secter access token'
 )
 
-user = "@MikailMasood"
+user = "username"
 
 auth = tweepy.OAuthHandler(keys['consumer_key'], keys['consumer_secret'])
 auth.set_access_token(keys['access_token'], keys['access_token_secret'])
